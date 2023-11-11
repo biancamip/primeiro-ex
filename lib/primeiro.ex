@@ -18,7 +18,7 @@ defmodule Primeiro do
     :world
   end
 
-  def get_news do
+  def get_coperse_news do
     "/coperse" |> UFRGSClient.request() |> UFRGSClient.get_titles()
   end
 end
