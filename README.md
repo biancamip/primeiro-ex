@@ -1,6 +1,6 @@
-# Primeiro
+# primeiro-ex
 
-**TODO: Add description**
+Repo for learning and experimenting with the Elixir lang.
 
 ## Installation
 
@@ -18,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/primeiro>.
-
