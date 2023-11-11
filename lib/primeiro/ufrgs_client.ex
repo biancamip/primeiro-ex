@@ -17,9 +17,6 @@ defmodule Primeiro.UFRGSClient do
     receive do
       {:news_body, body} -> Floki.parse_document!(body)
     end
-
-    # await
-    # |> Floki.parse_document!()
   end
 
   def get_titles(html) do

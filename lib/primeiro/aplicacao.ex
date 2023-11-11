@@ -5,7 +5,7 @@ defmodule Primeiro.Aplicacao do
   def start(_, _) do
     pid =
       spawn(fn ->
-        IO.puts("bianca")
+        IO.puts("starting Primeiro")
       end)
 
     {:ok, pid}
